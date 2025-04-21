@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/78/d7/c9/78d7c98d93bca4d245514e5e07ec9a5e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes it fill the screen */
+    color: #3D3D3D;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.form-box {
+    background-image: url(https://i.pinimg.com/originals/90/9e/25/909e25893881b145777c4c02b69a788a.gif);
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #3D3D3D;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+a {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A35C7A;
+}
